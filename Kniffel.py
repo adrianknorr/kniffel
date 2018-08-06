@@ -498,24 +498,3 @@ while True:
     if end == 1:
         print("nächster player")
         count_try = 1
-
-
-#####1
-# clear()
-# np = player_names()
-#####2
-# while p < 4:
-#     clear()
-#     player = player_ + p
-#     list = tcwrap(score, player)
-#     for i in list:
-#         print(i)
-#     nums = wrfl_all()
-#     print(nums)
-#     poss = poss(nums)
-#     print(poss)
-#     name_points = name_point(np, points)
-#     for i in name_points:
-#         print(i)
-#
-#     p = p + 1
