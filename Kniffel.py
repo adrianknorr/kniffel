@@ -1,11 +1,6 @@
 import random as rn
 import subprocess as sp
 
-# text = ["Das hier", "ist ein", "langer", "Text"]
-
-# text = input("Your text: ")
-# text = text.split(" ")
-
 def clear():
     sp.call('clear',shell=True)
 
@@ -95,14 +90,12 @@ def player_names():
             if name in names:
                 clear()
                 print(sand_func(["No double names!", "Try again!"]))
-                # print("Try again!")
                 continue
             names.append(str(name))
             i += 1
         return(names)
 
 def tcwrap(lc, rc):
-    ## max. length top and bottom
     len_count_lc = []
     i = 0
     for i in lc:
